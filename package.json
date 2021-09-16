@@ -5,6 +5,8 @@
   "author": "sabertazimi <sabertazimi@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "prelease": "standard-version --dry-run -s",
+    "release": "standard-version -s",
     "build": "echo Building work."
   },
   "packageManager": "yarn@1.22.11",
