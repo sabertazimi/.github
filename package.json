@@ -7,6 +7,7 @@
   "scripts": {
     "build": "echo Building work."
   },
+  "packageManager": "yarn@1.22.11",
   "devDependencies": {
     "standard-version": "^9.3.1"
   }
