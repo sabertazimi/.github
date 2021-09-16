@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Building on Node ${{ matrix.node-version }} ${{ matrix.os }} ${{ matrix.architecture }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node-version: [14, 16]
+        architecture: [x64]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 1
+      - name: Setup Node environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          architecture: ${{ matrix.architecture }}
+          registry-url: https://registry.npmjs.org/
+          cache: 'yarn'
+      - name: Installation
+        run: |
+          yarn
+      - name: Building work
+        run: |
+          yarn build

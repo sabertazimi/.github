@@ -4,6 +4,9 @@
   "repository": "https://github.com/sabertazimi/.github",
   "author": "sabertazimi <sabertazimi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "echo Building work."
+  },
   "devDependencies": {
     "standard-version": "^9.3.1"
   }
