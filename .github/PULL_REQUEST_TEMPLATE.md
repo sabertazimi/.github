@@ -8,7 +8,14 @@
   Happy contributing!
 -->
 
-This PR contains a:
+# Pull Request
+
+<!--
+  Make sure the `Allow edits and access to secrets by maintainers` checkbox
+  is checked on this pull request.
+-->
+
+## This PR Contains
 
 - [ ] **bugfix**
 - [ ] new **feature**
@@ -32,4 +39,25 @@ This PR contains a:
   please describe the impact and a migration path for existing applications.
 -->
 
+## Test-Case
+
+I have verified these changes via:
+
+- [ ] Code inspection only, or
+- [ ] Newly added/modified unit tests, or
+- [ ] No unit tests but ran on a real repository, or
+- [ ] Both unit tests + ran on a real repository
+
 ## Additional Info
+
+<!--
+  Do you have any suggestions about this PR template?
+  Edit it here: https://github.com/sabertazimi/.github/edit/main/.github/PULL_REQUEST_TEMPLATE.md
+-->
+
+<!--
+  Please do not force push to your PR's branch after you have created your PR,
+  as doing so forces us to review the whole PR again.
+  This makes it harder for us to review your work because we don't know what has changed.
+  PRs will always be squashed by us when we merge your work. Commit as many times as you need in this branch.
+-->
