@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: bug
+title: "[Bug]: "
+labels: 'bug, todo :spiral_notepad:'
 assignees: sabertazimi
 
 ---
