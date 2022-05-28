@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/sabertazimi/.github/compare/v1.0.0...v1.1.0) (2022-05-28)
+
+
+### :rocket: Building Work
+
+* **dependabot:** change schedule time ([c2a11df](https://github.com/sabertazimi/.github/commit/c2a11df9dd3949663533a2252eec7bdb83fd029a))
+* **deps-bot:** change PR concurrent limits ([1c51f2b](https://github.com/sabertazimi/.github/commit/1c51f2b9542f3ba9092a896fa3a543ee804fb8f1))
+* **deps-bot:** disable lockfile maintenance ([a5e48ce](https://github.com/sabertazimi/.github/commit/a5e48ce64454da397963d02b75a7fd0b402fb199))
+* **deps-bot:** widen peerDeps and engines ([04ed1f5](https://github.com/sabertazimi/.github/commit/04ed1f521f68755a9415200ffaf94eccf9b7df78))
+* **deps:** bundle bod deps into single PR ([a3fe0e6](https://github.com/sabertazimi/.github/commit/a3fe0e618c50ba8b950e4fa66ff309e3851348b7))
+* **yarn:** bump yarn from v3.0.2 to v3.1.0 ([162145b](https://github.com/sabertazimi/.github/commit/162145ba6cbe3482fe82355a332e12c7fd9a0fc1))
+
+
+### :sparkles: Features
+
+* add bug report form template ([97f74ad](https://github.com/sabertazimi/.github/commit/97f74ad548cc196ec3bbc6995c4a77ecc0118692))
+* add feature request form template ([c90787b](https://github.com/sabertazimi/.github/commit/c90787b9573f4f02bf01295ce1edd6d35d615330))
+* **package manager:** switch to yarn berry ([ea441ee](https://github.com/sabertazimi/.github/commit/ea441ee846b806db2b3b24b69969b3ee2ba8cc4e))
+
+
+### :bug: Bug Fixes
+
+* add contact links for issue template ([451990c](https://github.com/sabertazimi/.github/commit/451990c25c1dda90175d093b33544563e6927d23))
+* disable blank issue template ([19f9c3a](https://github.com/sabertazimi/.github/commit/19f9c3a8555e5c0dc4ad44dc8f1077c2a6693c1b))
+* **PR:** update PR template ([da33ad7](https://github.com/sabertazimi/.github/commit/da33ad7094eb3a2982e9d2dfb99535f229eff3db))
+* remove default title for issue template ([1824ceb](https://github.com/sabertazimi/.github/commit/1824ceb8a5e19167336a5b2452af54c1f7ece768))
+* **template-issues:** update issues template ([ccddf89](https://github.com/sabertazimi/.github/commit/ccddf895e49a1f4e5bde2aea67b17e7e9b8b183a))
+* **template-PRs:** update pull request template ([c136bfa](https://github.com/sabertazimi/.github/commit/c136bfa29e71e38e330938845ecd835c2ee4d4af))
+* update bug reports template ([3039f37](https://github.com/sabertazimi/.github/commit/3039f377b4c2cf3399f0814d4c29397b09981972))
+* update feature request template ([d563dc0](https://github.com/sabertazimi/.github/commit/d563dc07b62251d21099fda1559201263f5620d8))
+* update pull request template ([2349bc0](https://github.com/sabertazimi/.github/commit/2349bc0c31758ce4ee7d4cb13ca37e32e47a51d1))
+
 ## 1.0.0 (2021-09-16)
 
 
