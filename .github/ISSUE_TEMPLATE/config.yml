@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Email
+    url: https://github.com/sabertazimi
+    about: Send Email to us
+  - name: Twitter
+    url: https://twitter.com/sabertazimi
+    about: Find us on Twitter
