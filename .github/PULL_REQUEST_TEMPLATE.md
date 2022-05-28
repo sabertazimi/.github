@@ -32,13 +32,6 @@
   If this PR addresses an issue, please link to the issue.
 -->
 
-## Breaking Changes
-
-<!--
-  If this PR introduces a breaking change,
-  please describe the impact and a migration path for existing applications.
--->
-
 ## Test-Case
 
 I have verified these changes via:
@@ -47,6 +40,13 @@ I have verified these changes via:
 - [ ] Newly added/modified unit tests, or
 - [ ] No unit tests but ran on a real repository, or
 - [ ] Both unit tests + ran on a real repository
+
+## Breaking Changes
+
+<!--
+  If this PR introduces a breaking change,
+  please describe the impact and a migration path for existing applications.
+-->
 
 ## Additional Info
 
