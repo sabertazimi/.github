@@ -20,8 +20,6 @@ body:
           required: true
         - label: Follow our code of conduct.
           required: true
-        - label: Read the security policy.
-          required: true
         - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
           required: true
         - label: Check that this is a concrete bug. For Q&A open a GitHub discussion.
