@@ -1,0 +1,54 @@
+name: Feature request
+title: '[Feature]: '
+description: Suggest an idea for this project
+labels:
+  - enhancement
+  - 'todo :spiral_notepad:'
+assignees: sabertazimi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the project and taking the time to fill out this feature report!
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following
+      options:
+        - label: Read the contributing guidelines.
+          required: true
+        - label: Follow our code of conduct.
+          required: true
+        - label: Check that there isn't already an issue that request the same feature to avoid creating a duplicate.
+          required: true
+        - label: Check that this is a concrete feature request. For Q&A open a GitHub discussion.
+          required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description 
+      description: A clear and concise description of what the feature is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: As a developer I want [goal / wish] so that [benefit] '...'
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-solution
+    attributes:
+      label: Suggested Solution
+      description: A clear and concise description of what you want to happen.
+      placeholder: I could provide following implementation '...'
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Clear and concise description of any alternative solutions or features you've considered.
+      placeholder: Alternatives '...'
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any other context or screenshots about the feature request here.
+      placeholder: Additional context '...'
