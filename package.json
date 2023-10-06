@@ -9,8 +9,8 @@
     "release": "commit-and-tag-version -s",
     "build": "echo Building work."
   },
-  "packageManager": "yarn@3.6.3",
+  "packageManager": "yarn@3.6.4",
   "devDependencies": {
-    "commit-and-tag-version": "^11.2.3"
+    "commit-and-tag-version": "^11.2.4"
   }
 }
