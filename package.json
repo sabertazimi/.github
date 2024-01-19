@@ -11,6 +11,6 @@
   },
   "packageManager": "yarn@4.0.2",
   "devDependencies": {
-    "commit-and-tag-version": "^12.1.0"
+    "commit-and-tag-version": "^12.2.0"
   }
 }
