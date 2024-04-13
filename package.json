@@ -9,7 +9,7 @@
     "release": "commit-and-tag-version -s",
     "build": "echo Building work."
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.7",
   "devDependencies": {
     "commit-and-tag-version": "^12.2.0"
   }
