@@ -73,9 +73,9 @@ body:
       label: Used Package Manager
       description: Select the used package manager
       options:
+        - pnpm
         - npm
         - yarn
-        - pnpm
     validations:
       required: true
   - type: textarea
